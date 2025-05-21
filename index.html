@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeastFlow</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Theme button added -->
+        <button id="theme-toggle">Switch to Dark Mode</button> <!-- Change the button text depending on the theme -->
+    </header>
+
+    <h1>Tired of eating the same meal over and over again ,<br>well we got you covered search your meal of choice and get tailor made instructions on how to prepare it .</h1>
+
+    <h2><i>Start chopping,slicing  and dicing and get those tastebuds wet!</i></h2>
+    <form action="">
+
+        <label for="food">Enter food Name</label>
+    
+        <input type="text" id="food" name = "food" required>
+    
+        <button id = "submit" type="button"> Submit</button>
+    </form>
+
+    <section id="display">
+
+        
+        <p id ="meal_id"></p>
+        
+        <p id ="meal"></p>
+        
+        <p id ="category"></p>
+        
+        <p id ="area"></p>
+        
+        <b><p id ="instructions"></p></b>
+        
+        <p id ="ingredients"></p>
+
+        
+
+
+    </section>
+
+    <footer>
+        <a href="https://www.themealdb.com/api.php" target="_blank">click here</a>
+    </footer>
+
+    <script src="script.js"></script> <!-- Include script.js -->
+</body>
+</html>

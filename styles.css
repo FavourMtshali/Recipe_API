@@ -1,0 +1,43 @@
+/* Default (light mode) styles */
+body {
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+form button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: red;
+}
+
+h1 {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    text-align: center;
+    animation: both;
+    letter-spacing: 3px;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+button.dark-mode {
+    background-color: #444;
+    color: #fff;
+}
